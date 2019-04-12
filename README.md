@@ -1,4 +1,4 @@
-# Containers for Machine Learning in HEP
+# [Containers for Machine Learning in HEP](https://indico.cern.ch/event/766872/contributions/3357988/)
 
 Proposed talk at the [3rd IML Machine Learning Workshop (2019)](https://indico.cern.ch/event/766872/)
 
