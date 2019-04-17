@@ -11,25 +11,13 @@ Matthew Feickert<br>
 
 April 16th, 2019
 
-<!-- ---
-# Talk Notes for Lukas and Dan
-
-<br><br>
-
-- INDICO page: https://indico.cern.ch/event/766872/contributions/3357988/
-- Talk time window: _20_ minutes
-   - Presentation time: _17_ minutes
-   - Question time: _3_ minutes
-- Talk Goals:
-   - Motivate and introduce applications of containers on GRID for ML
-   - 1st half: Lukas et.al work in Containers + GRID
-   - 2nd half: Matthew and Dan work on AML base images -->
-
 ---
 # Collaborators
 
+<br><br><br>
+
 .grid[
-.kol-1-2.center[
+.kol-1-4.center[
 <!-- .circle.width-80[![Lukas](https://avatars1.githubusercontent.com/u/2318083?s=400&v=4)] -->
 .center.circle.width-100[![Lukas](figures/collaborators/heinrich.jpg)]
 
@@ -37,9 +25,24 @@ April 16th, 2019
 
 CERN
 ]
+.kol-1-4.center[
+<!-- .center.circle.width-100[![Alessandra](https://pbs.twimg.com/profile_images/1096619974452563968/8Nb3z07z_400x400.png)] -->
+.center.circle.width-100[![Alessandra](figures/collaborators/forti.png)]
+
+[Alessandra Forti](http://www.hep.manchester.ac.uk/u/aforti/)
+
+U Manchester
+]
+.kol-1-4.center[
+.center.circle.width-75[![Manuel](figures/collaborators/guth.jpg)]
+
+[Manuel Guth](https://glance.cern.ch/atlas/membership/members/profile?id=10802)
+
+Freiburg
+]
 <!-- https://www.weizmann.ac.il/conferences/SRitp/Summer2017/sites/conferences.SRitp.Summer2017/files/styles/gallery_full_image/public/dsc07727.jpg?itok=Z6VbTmy9 -->
-.kol-1-2.center[
-.center.circle.width-90[![Dan](figures/collaborators/guest.png)]
+.kol-1-4.center[
+.center.circle.width-85[![Dan](figures/collaborators/guest.png)]
 
 [Dan Guest](https://github.com/dguest)
 
@@ -84,7 +87,6 @@ UC Irvine
 # Containers
 .grid[
 .kol-2-3[
-<!-- <br> -->
 - _Machine Learning_ needs are challenge for current system
    - moves fast
    - experiments with bleeding edge tools
@@ -157,7 +159,6 @@ In development/testing: dedicated _pcontainer_ CLI (drop all software related fl
 .kol-1-3.center[
 <br><br>
 <br><br>
-<!-- .center.width-100[![AML_DockerHub](figures/AML_DockerHub.png)] -->
 .center.width-100[![ML_Docker](figures/ML_Docker.jpg)]
 ]
 .kol-2-3[
@@ -193,10 +194,6 @@ In development/testing: dedicated _pcontainer_ CLI (drop all software related fl
 .center.width-40[[![CI_pipeline](figures/CI_pipeline.png)](https://gitlab.cern.ch/aml/containers/docker/pipelines)]
 .center[...[built by CI](https://gitlab.cern.ch/aml/containers/docker/pipelines)...]
 
-<!-- ---
-# Base Image Environment
-.center.width-70[![image_environment](figures/carbon_image_environment.png)] -->
-
 ---
 # Base Image Environment
 .center[Modern _Pythonic_ ML environment with common (HEP)ML tools]
@@ -210,8 +207,6 @@ In development/testing: dedicated _pcontainer_ CLI (drop all software related fl
 .center.width-110[![image_extras](figures/carbon_image_extras.png)]
 ]
 ]
-<!-- - [tab complete for h5ls](https://github.com/dguest/_h5ls) -->
-<!-- - [git-fatlas](https://github.com/dguest/git-fatlas) (ATLAS ML base only) -->
 
 ---
 # Supports Interactive Sessions
@@ -251,8 +246,6 @@ In development/testing: dedicated _pcontainer_ CLI (drop all software related fl
    - Part of CVMFS sync, so on CVMFS now
    - Contributions welcome on [GitLab](https://gitlab.cern.ch/aml/containers/docker)
 
-<!-- .center.width-50[![Docker_nyan_whale](figures/Docker_nyan_whale.gif)]
-.center.width-50[![LHC_schedule](figures/LHC_schedule.png)] -->
 .grid[
 .kol-1-2[
 .center.width-100[![Docker_nyan_whale](figures/Docker_nyan_whale.gif)]
